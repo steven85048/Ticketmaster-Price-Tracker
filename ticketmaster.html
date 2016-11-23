@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Ticketmaster</title>
+<style>
+input[type=text] {
+    width: 170px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+</style>
+
+</head>
+<body>
+<h1>Ticketmaster Search</h1>
+<p1>Name:</p1>
+
+<form>
+  <input id = "name", type="text" name="search" placeholder="Search..">
+</form>
+
+<p2>Type:</p2>
+
+<form>
+  <input id = "type", type="text" name="search" placeholder="Search..">
+</form>
+
+<script src = "dataToSite.js"></script>
+ </head>
+  <div id="metric_results">
+    <input type="button" id="create" value="Search" onclick="getDataFromTextFields()">
+</div>
+
+ <input type="button" id="create" value="Add to Shopping Cart" onclick="">
+ 
+</body>
+
+</html>
